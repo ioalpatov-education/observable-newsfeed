@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin: 3rem;
+  height: 100vh;
+}
