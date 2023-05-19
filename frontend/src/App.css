@@ -2,10 +2,73 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #e3eeff;
+}
+
 .app {
-  display: flex;
-  justify-content: center;
-  align-items: start;
-  margin: 3rem;
   height: 100vh;
+}
+
+.news-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+  padding: 3rem;
+}
+
+.news-card {
+  width: 500px;
+}
+
+.MuiCardHeader-title {
+  color: #4776bd;
+  font-weight: 500 !important;
+}
+
+.main-text {
+  word-wrap: break-word;
+}
+
+.attachment--link {
+  border-left: #4776bd solid 3px;
+  padding: 0 !important;
+  padding-left: 10px !important;
+  margin: 0 16px;
+}
+
+.attachment--link .MuiLink-root {
+  color: #4776bd;
+  text-decoration: none;
+}
+
+.attachment--link__url {
+  color: #6e6e6e;
+}
+
+.arrow-back-icon {
+  transform: rotate(-90deg);
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 16px;
+}
+
+.actions__btns-container {
+  display: flex;
+  gap: 5px;
+}
+
+.actions-block {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.reposts-icon {
+  transform: rotate3d(0, 1, 0, 180deg);
 }
